@@ -1,0 +1,83 @@
+div.animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position:relative;
+    animation: example;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: 300000000000;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes example {
+    0% {background-color: red; left: 0px; top: 0px;}
+    25% {background-color: yellow; left: 400px; top: 0px;}
+    50% {background-color: green;left: 1000px; top: 0px;}
+    75% {background-color: blue; left: 400px; top: 0px;}
+    100% {background-color: red; left: 0px; top: 0px;}
+}
+.H1{
+    font-family: "Brush Script MT", cursive;
+}
+
+.H2{
+    font-family: "Brush Script MT", cursive;
+    color:black;
+}
+.ul1{
+    font-family: "Brush Script MT", cursive;
+    padding: 0px;
+    margin: 30px;
+    border: 0ch;
+    color:brown;
+    font-size: 20px;
+}
+.English {
+    width:200px; 
+    height:200px;
+    float: right ;
+    border: 10px solid green;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: blue;
+}
+.TEST{
+    width:90px; 
+    height:90px; 
+    margin: 10px;
+    border-radius: 15px;
+}
+.content{
+    float: right;
+}
+#T1{
+    width: 30px;
+    height: 30px;
+    background: rgb(247, 16, 16);
+    transition: width 2s;
+}
+#T1.Feb:hover{
+    width: 101px;
+}
+#T1.Apr:hover{
+    width: 136px;
+}
+#T1.June:hover{
+    width: 1230px;
+}
+#T1.July:hover{
+    width: 332px;
+}
+#T1.Aug:hover{
+    width: 112px;
+}
+#T1.Oct:hover{
+    width: 82px;
+}
+#T1.No:hover{
+    width: 283px;
+}
+#T1.Des:hover{
+    width: 934px;
+}
